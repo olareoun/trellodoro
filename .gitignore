@@ -1,0 +1,9 @@
+node_modules
+public/js
+public/main.html
+npm-debug.log
+.env
+
+# OS-specific files
+.DS_Store
+*.swp

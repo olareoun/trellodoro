@@ -1,0 +1,57 @@
+body {
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.pomodoro {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em 1em 0.5em 1em;
+  max-width: 400px;
+  margin: 5% auto;
+}
+
+.pomodoro .countdown {
+  color: #0f0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.pomodoro .countdown.finished {
+  color: red;
+}
+
+.pomodoro .timer {
+}
+
+.pomodoro .actions {
+}
+
+.pomodoro .countdown.finished #countdown-data {
+  animation: finished-animation 1s steps(5, start) infinite;
+  -webkit-animation: finished-animation 1s steps(5, start) infinite;
+}
+
+@keyframes finished-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes finished-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.task.current {
+  background-color: #D0F5A9;
+}
