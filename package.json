@@ -7,7 +7,8 @@
     "react",
     "redux",
     "trello",
-    "pomodoro"
+    "pomodoro",
+    "bla"
   ],
   "license": "MIT",
   "author": "Victorcico <victor.miguez.martinez@gmail.com> (https://github.com/olareoun)",
